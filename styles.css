@@ -16,7 +16,7 @@ body {
       ),
      url(images/pchomebackground.png);
     height: 100%;
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     color: white;
     font-family: sans-serif;
@@ -157,7 +157,7 @@ span {
         rgba(94, 23, 235, 0.8)
       ),
      url(images/pchomebackground.png);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
 }
 .bannerpmt div {
