@@ -16,7 +16,7 @@ body {
       ),
      url(images/pchomebackground.png);
     height: 100%;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     color: white;
     font-family: sans-serif;
@@ -111,7 +111,6 @@ span {
 @media (max-width:930px) {
     .home-container {
         flex-direction: column;
-        margin-top: -6vh;
     }
     .container-half {
         width: 80%;
@@ -158,7 +157,7 @@ span {
         rgba(94, 23, 235, 0.8)
       ),
      url(images/pchomebackground.png);
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
 }
 .bannerpmt div {
@@ -212,7 +211,7 @@ input[type="checkbox"] {
     }
     label{
         display:block;
-        padding:10px 10px 20px 10px;
+        padding:auto 10px;
         color:white;  
         cursor:pointer;
         position: relative;
