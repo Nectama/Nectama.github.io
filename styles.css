@@ -402,7 +402,7 @@ input[type="checkbox"] {
 }
 .caja-curso {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 1fr;
 }
 .curso {
